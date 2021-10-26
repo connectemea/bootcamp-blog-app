@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import {useHistory, Link} from 'react-router-dom';
 import { blogsContext } from "../../context/BlogsContext";
+import styles from './styles.module.css';
 
 export default function CreateBlog (){
   const { blogs, setBlogs } = useContext(blogsContext);
@@ -22,7 +23,7 @@ export default function CreateBlog (){
   }) 
 
   return (
-    <div>
+    <div className={styles.contentWrapper}>
       <div>
       <Link to="home">back</Link><h3>blogs</h3> 
       </div>
