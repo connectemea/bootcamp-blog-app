@@ -1,4 +1,30 @@
-.contentWrapper{
-    width:100%;
-    height:100%;
+.contentWrapper {
+  width: 100vw;
+  height: 100vh;
+}
+.Header {
+    height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8f5fd;
+  padding: 10px 55px;
+  
+}
+.Heading {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 84px;
+  text-align: left;
+}
+.add {
+  text-decoration: none;
+  background-color: #5a7bff;
+  border-radius: 17px;
+  color: #fff;
+  padding: 15px 54px;
 }
