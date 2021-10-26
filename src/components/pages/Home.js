@@ -3,12 +3,13 @@ import { blogsContext } from "../../context/BlogsContext";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 import Blog from "../utils/Blog";
+
 export default function Home() {
   const { blogs } = useContext(blogsContext);
   return (
     <div className={styles.contentWrapper}>
-      <div>
-        <h3>blogs</h3> <Link to="create">Add Blog</Link>
+      <div className={styles.Header}>
+        <h3 className={styles.Heading}>Blog App</h3> <Link to="create" className={styles.add}>Add Blog</Link>
       </div>
       <div>
         {blogs &&
