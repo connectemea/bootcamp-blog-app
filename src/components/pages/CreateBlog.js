@@ -24,8 +24,8 @@ export default function CreateBlog (){
 
   return (
     <div className={styles.contentWrapper}>
-      <div>
-      <Link to="home">back</Link><h3>blogs</h3> 
+      <div className={styles.cHeader}>
+      <Link to="home">back</Link><h3 className={styles.new}>New Blog</h3> .
       </div>
       <div>
         <input type="text" name="name" value={blog?.name} onChange={handleBlogChange}/>
