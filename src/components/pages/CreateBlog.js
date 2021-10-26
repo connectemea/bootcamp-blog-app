@@ -28,7 +28,7 @@ export default function CreateBlog (){
       <Link to="home">back</Link><h3>blogs</h3> 
       </div>
       <div>
-        <input type="text" name="title" value={blog?.name} onChange={handleBlogChange}/>
+        <input type="text" name="name" value={blog?.name} onChange={handleBlogChange}/>
         <input type="text" name="desc" value={blog?.desc} onChange={handleBlogChange}/>
         <button onClick={handleAddBlog}>Create</button>
       </div>
