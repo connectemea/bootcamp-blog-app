@@ -8,6 +8,7 @@ function App() {
     <Router>
       <Switch>
         <BlogsProvider>
+          <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/create" component={CreateBlog} />
         </BlogsProvider>
