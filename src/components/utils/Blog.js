@@ -1,4 +1,4 @@
-import styles from './Blog.css'
+import styles from './styles.module.css'
 export default function Blog(props) {
   const { title, desc } = props;
   return (

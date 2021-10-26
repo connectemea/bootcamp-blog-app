@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.Header}>
         <h3 className={styles.Heading}>Blog App</h3> <Link to="create" className={styles.add}>Add Blog</Link>
       </div>
-      <div>
+      <div className={styles.blogWrapper}>
         {blogs &&
           blogs.map((blog) => <Blog title={blog.name} desc={blog.desc}/>)}
       </div>
