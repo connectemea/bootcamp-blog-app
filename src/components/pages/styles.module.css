@@ -1,15 +1,15 @@
+/* common code for pages */
 .contentWrapper {
   width: 100vw;
   height: 100vh;
 }
 .Header {
-    height: 12%;
+  height: 12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #e8f5fd;
   padding: 10px 55px;
-  
 }
 .Heading {
   padding: 0;
