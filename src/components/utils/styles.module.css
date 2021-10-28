@@ -1,10 +1,8 @@
 .Card {
-  height: 343px;
+  height: 300px;
+  margin:10px 20px;
   width: 256px;
-  left: 0px;
-  top: 0px;
   border-radius: 20px;
-  font-family: Roboto;
   background: #fff;
   padding: 10px 20px;
   box-shadow: 0px 1px 51px 14px rgba(0, 0, 0, 0.05);

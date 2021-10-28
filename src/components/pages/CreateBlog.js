@@ -29,12 +29,33 @@ export default function CreateBlog() {
   return (
     <div className={styles.contentWrapper}>
       <div className={styles.cHeader}>
-      <Link to="home" className={styles.backBtn} ><i class="fas fa-arrow-left"></i></Link><h3 className={styles.new}>New Blog</h3> .
+        <Link to="home" className={styles.backBtn}>
+          <i class="fas fa-arrow-left"></i>
+        </Link>
+        <h3 className={styles.new}>New Blog</h3> .
       </div>
       <div className={styles.cFooter}>
-        <input placeholder="Add Title" type="text" name="name" value={blog?.name} className={styles.Title} onChange={handleBlogChange}/>
-        <input  type="text" name="desc" value={blog?.desc} className={styles.inp} onChange={handleBlogChange}/>
-        <button className={styles.Btn} onClick={handleAddBlog}>Publish</button>
+        <input
+          placeholder="Enter Blog Title *"
+          type="text"
+          name="name"
+          value={blog?.name}
+          className={styles.Title}
+          onChange={handleBlogChange}
+        />
+        <textarea
+          name="desc"
+          placeholder="Enter blog discribtion *"
+          value={blog?.desc}
+          className={styles.inp}
+          onChange={handleBlogChange}
+        />
+        <button
+          className={blog?.name && blog.desc ?styles.createBtn:styles.createBtnDisabled}
+          onClick={blog?.name && blog.desc ? handleAddBlog : null}
+        >
+          Publish
+        </button>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.Header}>
         <h3 className={styles.Heading}>Blog App</h3>{" "}
         <Link to="create" className={styles.add}>
-          Add Blog
+        Add Blog<i className={`fas fa-plus ${styles.addIcon}`}></i>
         </Link>
       </div>
       <div className={styles.blogWrapper}>
