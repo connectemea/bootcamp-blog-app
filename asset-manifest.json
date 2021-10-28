@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bootcamp-blog-app/static/css/main.cb4de087.chunk.css",
+    "main.css": "/bootcamp-blog-app/static/css/main.f36f68aa.chunk.css",
     "main.js": "/bootcamp-blog-app/static/js/main.9415101b.chunk.js",
     "main.js.map": "/bootcamp-blog-app/static/js/main.9415101b.chunk.js.map",
     "runtime-main.js": "/bootcamp-blog-app/static/js/runtime-main.f760e067.js",
@@ -10,13 +10,13 @@
     "static/js/3.30ac3200.chunk.js": "/bootcamp-blog-app/static/js/3.30ac3200.chunk.js",
     "static/js/3.30ac3200.chunk.js.map": "/bootcamp-blog-app/static/js/3.30ac3200.chunk.js.map",
     "index.html": "/bootcamp-blog-app/index.html",
-    "static/css/main.cb4de087.chunk.css.map": "/bootcamp-blog-app/static/css/main.cb4de087.chunk.css.map",
+    "static/css/main.f36f68aa.chunk.css.map": "/bootcamp-blog-app/static/css/main.f36f68aa.chunk.css.map",
     "static/js/2.b60c4992.chunk.js.LICENSE.txt": "/bootcamp-blog-app/static/js/2.b60c4992.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f760e067.js",
     "static/js/2.b60c4992.chunk.js",
-    "static/css/main.cb4de087.chunk.css",
+    "static/css/main.f36f68aa.chunk.css",
     "static/js/main.9415101b.chunk.js"
   ]
 }
