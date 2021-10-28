@@ -15,7 +15,7 @@ export default function Home() {
           Add Blog
         </Link>
       </div>
-      <div>
+      <div className={styles.blogWrapper}>
         {blogs &&
           blogs.map((blog) => <Blog title={blog.name} desc={blog.desc} />)}
       </div>
